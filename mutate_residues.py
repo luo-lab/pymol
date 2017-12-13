@@ -10,8 +10,9 @@ os.chdir("/Users/vyduong/cloudv/WW/YP-WW")
 
 file = ["YP.pdb"] # name of your pdb file 
 
-#lst = [4,5,7,9,20,23,27,33]
-lst = ['4','5'] # note these need to be a string not floats 
+#residues 
+px = [4,5,7,9,20,23,27,33]
+lst = map(str,px) # make them into a string bc chimera doesn't accept floats below
 
 for i in lst: 
 	for fn in file: 
