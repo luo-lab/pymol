@@ -1,3 +1,4 @@
 # Visualization Software
-#
-# Place any useful VMD, Chimera or Pymol scripts here
+
+Feel free to upload and download scripts for use in VMD, Chimera and Pymol. 
+
